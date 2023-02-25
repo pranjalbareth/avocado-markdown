@@ -1,0 +1,93 @@
+/* .LiveMarkdown {
+  display: flex;
+  border: 9px #1b1f2d solid;
+  flex-direction: row;
+  border-width: 50px 8px 8px 8px;
+  border-radius: 8px;
+  margin: 15px;
+  height: 76vh;
+  width: 97vw;
+  justify-content: space-evenly;
+  background-color: #1b1f2d;
+  gap: 8px;
+} */
+
+.frame {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  gap: 8px;
+  height: 75vh;
+}
+.editingFeatures {
+  height: 32px;
+  background: var(--secondary-color);
+  margin-bottom: 8px;
+  display: flex;
+  gap: 25px;
+}
+.LiveMarkdown {
+  border: 9px var(--secondary-color) solid;
+  border-width: 8px 8px 8px 8px;
+  border-radius: 8px;
+  margin: 0px 15px 15px 15px;
+  height: 82.5vh;
+  width: 97vw;
+  background-color: var(--secondary-color);
+}
+
+.textarea {
+  width: -webkit-fill-available;
+  background: var(--theme-color);
+  color: var(--text-color);
+  font-size: 16px;
+  outline: none !important;
+  border: none !important;
+  padding: 10px;
+  border-radius: 10px;
+}
+.preview {
+  width: -webkit-fill-available;
+  padding: 10px;
+  color: var(--text-color);
+  background: var(--theme-color);
+  border-radius: 10px;
+}
+
+.features > div > button {
+  background: var(--theme-color);
+  margin: 0px 6px;
+  font-size: 14px;
+  border: none !important;
+  color: #afafaf;
+  cursor: pointer;
+  width: 34px;
+  padding: 8px 10px;
+  border-radius: 5px;
+}
+
+.separate-features > div > button {
+  margin: 0px 6px;
+}
+
+.joint-feature > div > button {
+  margin: 0px 2px;
+}
+
+blockquote {
+  background: var(--secondary-color);
+  padding: 15px 34px;
+  border-radius: 5px;
+}
+
+@media (max-width: 800px) {
+  .frame {
+    flex-direction: column;
+  }
+  .textarea {
+    height: 76vh;
+  }
+  .preview {
+    height: 76vh;
+  }
+}
