@@ -1,3 +1,22 @@
+// import React from 'react';
+// import './NavBar.css';
+// import { MoonOutline, SunOutline } from "@styled-icons/evaicons-outline";
+
+// export default function NavBar() {
+//     return (
+//         <div className='NavBar'>
+//             <div className='NavBar_title'>
+//                 <div className='Navbar_title_logo'>🥑 Avocado Markdown</div>
+//             </div>
+//             <div className='NavBar_items'>
+//                 <div className='Navbar_title_contribute'>Contribute</div>
+//                 <div className='Navbar_title_creator'>Creator</div>
+//                 <button className='Navbar_title_visualMode'><MoonOutline fill='white' /></button>
+//             </div>
+//         </div>
+//     )
+// }
+
 import React from 'react';
 import './NavBar.css';
 import { MoonOutline, SunOutline } from "@styled-icons/evaicons-outline";
@@ -16,6 +35,13 @@ export default function NavBar() {
             <div className='NavBar_items'>
                 <div className='Navbar_title_contribute'><a href={'https://github.com/pranjalbareth/avocado-markdown'} target="_blank" rel="noopener noreferrer">Contribute</a></div>
                 <div className='Navbar_title_creator'><a href={'https://twitter.com/pranjalbareth'} target="_blank" rel="noopener noreferrer">Creator</a></div>
+                {/* <button className='Navbar_title_visualMode'
+                    onClick={() =>
+                        setTheme((prev) => (prev === "light" ? "dark" : "light"))
+                    }
+                >
+                    {theme === "light" ? <MoonOutline fill='white' /> : <SunOutline fill='white' />}
+                </button> */}
                 <button className='Navbar_title_visualMode' onClick={toggleTheme}>
                     {theme === "light" ? <MoonOutline fill='626262' /> : <SunOutline fill='white' />}
                 </button>

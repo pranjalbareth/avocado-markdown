@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+@font-face {
+  font-family: "Product Sans"; /*Can be any text*/
+  src: local("Product_Sans_Regular"),
+    url("./fonts/Product_Sans_Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Product Sans Bold"; /*Can be any text*/
+  src: local("Product_Sans_Bold"),
+    url("./fonts/Product_Sans_Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Product Sans Italic"; /*Can be any text*/
+  src: local("Product_Sans_Italic"),
+    url("./fonts/Product_Sans_Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Product Sans Bold Italic"; /*Can be any text*/
+  src: local("Product_Sans_Bold_Italic"),
+    url("./fonts/Product_Sans_Bold_Italic.ttf") format("truetype");
+}
