@@ -1,9 +1,15 @@
-import NavBar from "./components/NavBar";
+import './App.css'
+import LiveMarkdown from './components/LiveMarkdown'
+import NavBar from './components/NavBar'
+import { useTheme } from "./contexts/theme-context";
 
-export default function App() {
+function App() {
+  const { theme } = useTheme();
   return (
-    <div>
+    <div className={`${theme}-mode`}>
       <NavBar />
+      <LiveMarkdown />
     </div>
   )
 }
+export default App
