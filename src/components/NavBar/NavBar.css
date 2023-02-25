@@ -1,0 +1,33 @@
+.NavBar {
+  display: flex;
+  padding: 38px;
+  color: var(--text-color);
+  justify-content: space-between;
+  font-family: "Product Sans";
+  font-size: 18px;
+}
+.NavBar_items {
+  display: flex;
+  gap: 28px;
+  align-items: center;
+  font-size: 17px;
+}
+button {
+  width: 28px;
+  background: var(--theme-color);
+  cursor: pointer;
+  border: none;
+}
+.Navbar_title_logo {
+  font-family: "Product Sans";
+  -webkit-text-stroke-width: 0.3px;
+  letter-spacing: 1px;
+  color: var(--title-color);
+}
+a {
+  text-decoration: none !important;
+  color: var(--text-color);
+}
+svg {
+  fill: var(--text-color);
+}
