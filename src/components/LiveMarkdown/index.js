@@ -74,6 +74,9 @@ export default function LiveMarkdown() {
                     </Tooltip>
                 </div> */}
             </div>
+            <div className="Tags">
+                <p>Markdown</p>
+            </div>
             <div className="frame">
                 <textarea
                     className='textarea'
@@ -81,6 +84,9 @@ export default function LiveMarkdown() {
                     value={markdown}
                     onChange={handleEditorChange}
                 ></textarea>
+                <div className="Tags" style={{ padding: "6px 0px 6px 12px" }}>
+                    <p>Preview</p>
+                </div>
                 <div className='preview'>
                     <ReactMarkdown rehypePlugins={[rehypeRaw]}>{markdown}</ReactMarkdown>
                 </div>

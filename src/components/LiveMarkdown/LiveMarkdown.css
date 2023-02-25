@@ -79,6 +79,10 @@ blockquote {
   padding: 15px 34px;
   border-radius: 5px;
 }
+.Tags {
+  visibility: hidden;
+  display: none;
+}
 
 @media (max-width: 800px) {
   .frame {
@@ -89,5 +93,22 @@ blockquote {
   }
   .preview {
     height: 76vh;
+  }
+  .editingFeatures {
+    visibility: hidden;
+    display: none;
+  }
+  .LiveMarkdown {
+    width: 92vw;
+    height: 82vh;
+  }
+  .Tags {
+    visibility: visible;
+    display: block;
+    padding: 6px 0px 15px 12px;
+    font-size: 13.5px;
+    font-family: "Product Sans";
+    color: #676e87;
+    letter-spacing: 2px;
   }
 }

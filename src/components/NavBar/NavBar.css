@@ -31,3 +31,12 @@ a {
 svg {
   fill: var(--text-color);
 }
+@media (max-width: 800px) {
+  .NavBar_items > div {
+    visibility: hidden;
+    display: none;
+  }
+  .NavBar {
+    padding: 38px 22px;
+  }
+}
