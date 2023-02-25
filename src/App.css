@@ -8,6 +8,8 @@
   --secondary-color: #1b1f2d;
   --theme-color: #000000;
   --title-color: #ffffff;
+  --tooltip-bg: #73798d;
+  --tooltip-text: #30333f;
 
   background-color: var(--theme-color);
   color: var(--text-color);
@@ -18,6 +20,8 @@
   --secondary-color: #dedede;
   --theme-color: #ffffff;
   --title-color: #2c2c2c;
+  --tooltip-bg: #e9e9e9;
+  --tooltip-text: #8c8c8c;
 
   background-color: var(--theme-color);
   color: var(--text-color);
