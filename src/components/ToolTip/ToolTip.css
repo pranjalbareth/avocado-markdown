@@ -5,8 +5,8 @@
 
 .tooltip {
   visibility: hidden;
-  background-color: #73798d;
-  color: #30333f;
+  background-color: var(--tooltip-bg);
+  color: var(--tooltip-text);
   font-size: 12px;
   margin: 0px 0px 12px 0px;
   font-weight: 500;
